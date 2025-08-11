@@ -199,7 +199,7 @@ export default function LeagueManager() {
   
 
   function resetAll() {
-    if (!confirm("هل تريد إعادة ضبط كل البيانات؟")) return;
+    // if (!confirm("هل تريد إعادة ضبط كل البيانات؟")) return;
     setStep(1);
     setNames([]);
     setTeams([]);
