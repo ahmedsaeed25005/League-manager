@@ -40,6 +40,7 @@ export default function LeagueManager() {
     homeRdir: 0,
     awayRdir: 0,
   });
+  console.log("hhhhhhhhh")
 
   // load
   useEffect(() => {
@@ -195,6 +196,7 @@ export default function LeagueManager() {
     setMatches(updated);
     setSelectedMatch(null);
   }
+  
 
   function resetAll() {
     if (!confirm("هل تريد إعادة ضبط كل البيانات؟")) return;
